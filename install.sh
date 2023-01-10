@@ -7,6 +7,7 @@ update(){
     sudo apt install git
     sudo pip install pyinstaller
     sudo pip install netaddr
+    sudo pip install requests
     sudo pip3 install -r requirements.txt
     clear
 }
