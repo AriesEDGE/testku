@@ -11,7 +11,7 @@ update(){
 
 #获取主程序
 down(){
-    git clone https://github.com/heinu123/whitelist.git /usr/whitelist
+    git clone https://github.com/AriesEDGE/testku.git
     clear
 }
 
