@@ -6,6 +6,8 @@ update(){
     sudo apt install python3 python3-pip -y
     sudo apt install git
     sudo pip install pyinstaller
+    sudo pip install netaddr
+    sudo pip3 install -r requirements.txt
     clear
 }
 
@@ -43,7 +45,7 @@ echo "获取信息完成,已经写入脚本"
 
 cat <<text >./config.py
 port = ${port}
-web_port = ${web_port}
+web_port = [${web_port}]
 URL_PATH = "${path}"
 USERNAME = '${username}'
 PASSWORD = '${password}'
